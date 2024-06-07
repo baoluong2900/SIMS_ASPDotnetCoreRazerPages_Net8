@@ -1,0 +1,2 @@
+Add-Migration "Initial Migration" (create migration)
+Update-Database (create table for sql server)
