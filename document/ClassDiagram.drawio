@@ -1,0 +1,69 @@
+<mxfile host="65bd71144e">
+    <diagram id="Q2G1iCMXUUSY4RyH1L6g" name="UseCaseDiagram">
+        <mxGraphModel dx="1201" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="School Information Management System" style="shape=umlFrame;whiteSpace=wrap;html=1;width=270;height=40;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="120" width="790" height="710" as="geometry"/>
+                </mxCell>
+                <mxCell id="bX1Msa6_uJwMFONDqW4U-2" value="Teacher" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="570" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="bX1Msa6_uJwMFONDqW4U-3" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="290" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="bX1Msa6_uJwMFONDqW4U-4" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1520" y="410" width="30" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="sfLJcVSueyMjydz0o6W_" name="Login">
+        <mxGraphModel dx="1264" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="BGWdIpNmjhbq4QoSM4XO-1" value="School Information Management System" style="shape=umlFrame;whiteSpace=wrap;html=1;width=270;height=40;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="1">
+                    <mxGeometry x="810" y="260" width="780" height="730" as="geometry"/>
+                </mxCell>
+                <mxCell id="BGWdIpNmjhbq4QoSM4XO-2" value="Teacher" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="720" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="BGWdIpNmjhbq4QoSM4XO-3" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="720" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="BGWdIpNmjhbq4QoSM4XO-4" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="720" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="BGWdIpNmjhbq4QoSM4XO-12" style="edgeStyle=none;html=1;" edge="1" parent="1" source="BGWdIpNmjhbq4QoSM4XO-6" target="BGWdIpNmjhbq4QoSM4XO-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BGWdIpNmjhbq4QoSM4XO-6" value="User login" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="480" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="BGWdIpNmjhbq4QoSM4XO-7" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BGWdIpNmjhbq4QoSM4XO-4">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="580" y="670" as="sourcePoint"/>
+                        <mxPoint x="630" y="570" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BGWdIpNmjhbq4QoSM4XO-8" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BGWdIpNmjhbq4QoSM4XO-3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="700" y="710" as="sourcePoint"/>
+                        <mxPoint x="640" y="570" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BGWdIpNmjhbq4QoSM4XO-9" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BGWdIpNmjhbq4QoSM4XO-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="760" y="710" as="sourcePoint"/>
+                        <mxPoint x="660" y="570" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BGWdIpNmjhbq4QoSM4XO-11" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="475" width="140" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
